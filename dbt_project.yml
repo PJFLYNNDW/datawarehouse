@@ -10,5 +10,5 @@ clean-targets:
     - "logs"
 
 models:
-  datawarehouse:
-      materialized: table
+  materialized: table
+  test
