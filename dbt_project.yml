@@ -11,4 +11,4 @@ clean-targets:
 
 models:
   materialized: table
-  test
+  test.sql
