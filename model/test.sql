@@ -1,1 +1,1 @@
-select * from test.sql
+select * from DW_TEST.PUBLIC.LOAD_JSON2
