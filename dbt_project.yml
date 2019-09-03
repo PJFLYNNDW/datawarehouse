@@ -1,0 +1,14 @@
+name: 'datawarehouse'
+version: '0.1'
+profile: 'datawarehouse'
+source-paths: ["models"]
+
+target-path: "target"
+clean-targets:
+    - "target"
+    - "dbt_modules"
+    - "logs"
+
+models:
+  datawarehouse:
+      materialized: table
