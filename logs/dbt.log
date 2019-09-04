@@ -1,0 +1,274 @@
+2019-09-04 09:23:42,183 (MainThread): Tracking: tracking
+2019-09-04 09:23:42,190 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11321c910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113e9d110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113e9d3d0>]}
+2019-09-04 09:23:47,975 (MainThread): Parsing macros/core.sql
+2019-09-04 09:23:47,986 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:23:47,996 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:23:48,000 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:23:48,017 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:23:48,039 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:23:48,057 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:23:48,067 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:23:48,075 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:23:48,084 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:23:48,092 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:23:48,099 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:23:48,102 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:23:48,105 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:23:48,109 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:23:48,114 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:23:48,124 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:23:48,129 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:23:48,165 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:23:48,168 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:23:48,171 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:23:48,175 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:23:48,179 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:23:48,183 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:23:48,192 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:23:48,196 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:23:48,198 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:23:48,204 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:23:48,225 (MainThread): Parsing model.datawarehouse.test
+2019-09-04 09:23:48,226 (MainThread): Acquiring new snowflake connection "test".
+2019-09-04 09:23:48,226 (MainThread): Opening a new connection, currently in state init
+2019-09-04 09:23:48,228 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/models.py:169: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+
+2019-09-04 09:23:48,773 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/cacert.pem'>
+
+2019-09-04 09:23:48,789 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+
+2019-09-04 09:23:49,266 (MainThread): Got an error when attempting to open a snowflake connection: '250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.'
+2019-09-04 09:23:49,268 (MainThread): On None: No close available on handle
+2019-09-04 09:23:49,268 (MainThread): ERROR: Database Error
+  250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.
+2019-09-04 09:23:49,269 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f57150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f57fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f57390>]}
+2019-09-04 09:23:49,954 (MainThread): Flushing usage events
+2019-09-04 09:23:49,982 (MainThread): sys:1: ResourceWarning: unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.8.131', 52125), raddr=('52.16.84.202', 443)>
+
+2019-09-04 09:24:25,784 (MainThread): Tracking: tracking
+2019-09-04 09:24:25,786 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102316d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110231ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ecda50>]}
+2019-09-04 09:24:26,752 (MainThread): Parsing macros/core.sql
+2019-09-04 09:24:26,759 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:24:26,766 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:24:26,768 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:24:26,779 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:24:26,796 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:24:26,810 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:24:26,817 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:24:26,823 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:24:26,829 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:24:26,834 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:24:26,839 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:24:26,840 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:24:26,841 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:24:26,843 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:24:26,846 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:24:26,854 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:24:26,856 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:24:26,886 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:24:26,888 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:24:26,889 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:24:26,890 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:24:26,893 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:24:26,895 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:24:26,906 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:24:26,908 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:24:26,910 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:24:26,913 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:24:26,932 (MainThread): Parsing model.datawarehouse.test
+2019-09-04 09:24:26,933 (MainThread): Acquiring new snowflake connection "test".
+2019-09-04 09:24:26,933 (MainThread): Opening a new connection, currently in state init
+2019-09-04 09:24:26,934 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/models.py:169: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+
+2019-09-04 09:24:27,293 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/cacert.pem'>
+
+2019-09-04 09:24:27,306 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+
+2019-09-04 09:24:27,461 (MainThread): Got an error when attempting to open a snowflake connection: '250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.'
+2019-09-04 09:24:27,462 (MainThread): On None: No close available on handle
+2019-09-04 09:24:27,463 (MainThread): ERROR: Database Error
+  250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.
+2019-09-04 09:24:27,463 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f608d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110d6c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110d64d0>]}
+2019-09-04 09:24:28,355 (MainThread): Flushing usage events
+2019-09-04 09:24:28,385 (MainThread): sys:1: ResourceWarning: unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.8.131', 52133), raddr=('52.210.95.82', 443)>
+
+2019-09-04 09:25:51,816 (MainThread): Tracking: tracking
+2019-09-04 09:25:51,817 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10986fc90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a50ba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a50ba90>]}
+2019-09-04 09:25:52,752 (MainThread): Parsing macros/core.sql
+2019-09-04 09:25:52,760 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:25:52,767 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:25:52,770 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:25:52,781 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:25:52,798 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:25:52,813 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:25:52,820 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:25:52,826 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:25:52,831 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:25:52,837 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:25:52,842 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:25:52,843 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:25:52,844 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:25:52,846 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:25:52,848 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:25:52,856 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:25:52,858 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:25:52,889 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:25:52,891 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:25:52,892 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:25:52,893 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:25:52,895 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:25:52,897 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:25:52,905 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:25:52,907 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:25:52,908 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:25:52,911 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:25:52,929 (MainThread): Parsing model.datawarehouse.test
+2019-09-04 09:25:52,930 (MainThread): Acquiring new snowflake connection "test".
+2019-09-04 09:25:52,930 (MainThread): Opening a new connection, currently in state init
+2019-09-04 09:25:52,931 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/models.py:169: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+
+2019-09-04 09:25:53,327 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/cacert.pem'>
+
+2019-09-04 09:25:53,338 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+
+2019-09-04 09:25:53,482 (MainThread): Got an error when attempting to open a snowflake connection: '250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.'
+2019-09-04 09:25:53,483 (MainThread): On None: No close available on handle
+2019-09-04 09:25:53,484 (MainThread): ERROR: Database Error
+  250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.
+2019-09-04 09:25:53,484 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae5a190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae5ac10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae5a290>]}
+2019-09-04 09:25:54,374 (MainThread): Flushing usage events
+2019-09-04 09:25:54,410 (MainThread): sys:1: ResourceWarning: unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.8.131', 52165), raddr=('52.16.84.202', 443)>
+
+2019-09-04 09:26:29,385 (MainThread): Tracking: tracking
+2019-09-04 09:26:29,386 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c4f5f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c4f5d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c503910>]}
+2019-09-04 09:26:30,076 (MainThread): Parsing macros/core.sql
+2019-09-04 09:26:30,081 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:26:30,089 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:26:30,091 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:26:30,102 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:26:30,119 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:26:30,134 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:26:30,140 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:26:30,147 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:26:30,152 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:26:30,162 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:26:30,167 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:26:30,168 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:26:30,169 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:26:30,171 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:26:30,173 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:26:30,181 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:26:30,184 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:26:30,215 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:26:30,216 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:26:30,217 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:26:30,219 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:26:30,220 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:26:30,223 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:26:30,230 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:26:30,232 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:26:30,233 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:26:30,236 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:26:30,254 (MainThread): Parsing model.datawarehouse.test
+2019-09-04 09:26:30,255 (MainThread): Acquiring new snowflake connection "test".
+2019-09-04 09:26:30,255 (MainThread): Opening a new connection, currently in state init
+2019-09-04 09:26:30,255 (MainThread): Got an error when attempting to open a snowflake connection: '251006: None: Password is empty'
+2019-09-04 09:26:30,256 (MainThread): On None: No close available on handle
+2019-09-04 09:26:30,256 (MainThread): ERROR: Database Error
+  251006: None: Password is empty
+2019-09-04 09:26:30,256 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5d2190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5d2b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5d2f50>]}
+2019-09-04 09:26:30,929 (MainThread): Flushing usage events
+2019-09-04 09:27:01,972 (MainThread): Tracking: tracking
+2019-09-04 09:27:01,973 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112eb7350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112eb2e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113b52290>]}
+2019-09-04 09:27:02,791 (MainThread): Parsing macros/core.sql
+2019-09-04 09:27:02,797 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:27:02,803 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:27:02,805 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:27:02,817 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:27:02,834 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:27:02,848 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:27:02,855 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:27:02,861 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:27:02,867 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:27:02,872 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:27:02,877 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:27:02,878 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:27:02,880 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:27:02,882 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:27:02,884 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:27:02,892 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:27:02,894 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:27:02,925 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:27:02,927 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:27:02,928 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:27:02,929 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:27:02,931 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:27:02,933 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:27:02,941 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:27:02,943 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:27:02,944 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:27:02,947 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:27:02,965 (MainThread): Parsing model.datawarehouse.test
+2019-09-04 09:27:02,966 (MainThread): Acquiring new snowflake connection "test".
+2019-09-04 09:27:02,966 (MainThread): Opening a new connection, currently in state init
+2019-09-04 09:27:02,968 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/models.py:169: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+
+2019-09-04 09:27:03,278 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/cacert.pem'>
+
+2019-09-04 09:27:03,289 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+
+2019-09-04 09:27:03,446 (MainThread): Got an error when attempting to open a snowflake connection: '250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.'
+2019-09-04 09:27:03,447 (MainThread): On None: No close available on handle
+2019-09-04 09:27:03,447 (MainThread): ERROR: Database Error
+  250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.
+2019-09-04 09:27:03,448 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114550650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114550f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114550950>]}
+2019-09-04 09:27:04,312 (MainThread): Flushing usage events
+2019-09-04 09:27:04,340 (MainThread): sys:1: ResourceWarning: unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.8.131', 52182), raddr=('52.16.84.202', 443)>
+
+2019-09-04 09:31:21,680 (MainThread): Tracking: tracking
+2019-09-04 09:31:21,681 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2b6f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2c5990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2c5910>]}
+2019-09-04 09:31:22,374 (MainThread): Parsing macros/core.sql
+2019-09-04 09:31:22,379 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:31:22,386 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:31:22,388 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:31:22,400 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:31:22,420 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:31:22,435 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:31:22,442 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:31:22,448 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:31:22,453 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:31:22,459 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:31:22,465 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:31:22,466 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:31:22,468 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:31:22,469 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:31:22,472 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:31:22,481 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:31:22,483 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:31:22,515 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:31:22,516 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:31:22,518 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:31:22,519 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:31:22,521 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:31:22,524 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:31:22,531 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:31:22,533 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:31:22,533 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:31:22,537 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:31:22,554 (MainThread): Parsing model.datawarehouse.test
+2019-09-04 09:31:22,556 (MainThread): Acquiring new snowflake connection "test".
+2019-09-04 09:31:22,556 (MainThread): Opening a new connection, currently in state init
+2019-09-04 09:31:22,557 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/models.py:169: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+
+2019-09-04 09:31:22,990 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/cacert.pem'>
+
+2019-09-04 09:31:23,002 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+
+2019-09-04 09:31:23,134 (MainThread): Got an error when attempting to open a snowflake connection: '250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.'
+2019-09-04 09:31:23,135 (MainThread): On None: No close available on handle
+2019-09-04 09:31:23,136 (MainThread): ERROR: Database Error
+  250001 (08001): None: Failed to connect to DB: gd89125.eu-west-1.snowflakecomputing.com:443. Incorrect username or password was specified.
+2019-09-04 09:31:23,136 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eca3ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eca33d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e30e6d0>]}
+2019-09-04 09:31:23,997 (MainThread): Flushing usage events
+2019-09-04 09:31:24,026 (MainThread): sys:1: ResourceWarning: unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.8.131', 52263), raddr=('52.209.170.35', 443)>
+
