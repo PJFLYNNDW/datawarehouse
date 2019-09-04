@@ -1,0 +1,1 @@
+select * from DW_TEST.PUBLIC.LOAD_JSON2

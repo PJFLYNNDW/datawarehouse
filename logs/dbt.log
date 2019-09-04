@@ -272,3 +272,147 @@
 2019-09-04 09:31:23,997 (MainThread): Flushing usage events
 2019-09-04 09:31:24,026 (MainThread): sys:1: ResourceWarning: unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.8.131', 52263), raddr=('52.209.170.35', 443)>
 
+2019-09-04 09:33:49,487 (MainThread): Tracking: tracking
+2019-09-04 09:33:49,488 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10797e850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085d3fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085e2210>]}
+2019-09-04 09:33:55,406 (MainThread): Parsing macros/core.sql
+2019-09-04 09:33:55,411 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:33:55,418 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:33:55,420 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:33:55,430 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:33:55,447 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:33:55,462 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:33:55,468 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:33:55,475 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:33:55,480 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:33:55,486 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:33:55,491 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:33:55,492 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:33:55,493 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:33:55,495 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:33:55,497 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:33:55,505 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:33:55,508 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:33:55,543 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:33:55,545 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:33:55,546 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:33:55,547 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:33:55,550 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:33:55,552 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:33:55,559 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:33:55,561 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:33:55,562 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:33:55,565 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:33:55,586 (MainThread): Parsing model.datawarehouse.test
+2019-09-04 09:33:55,588 (MainThread): Acquiring new snowflake connection "test".
+2019-09-04 09:33:55,588 (MainThread): Opening a new connection, currently in state init
+2019-09-04 09:33:55,589 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/models.py:169: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+
+2019-09-04 09:33:55,963 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/botocore/vendored/requests/cacert.pem'>
+
+2019-09-04 09:33:55,975 (MainThread): /usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/snowflake/connector/ocsp_asn1crypto.py:83: ResourceWarning: unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.14.0/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+
+2019-09-04 09:33:56,512 (MainThread): Found 1 models, 0 tests, 0 snapshots, 0 analyses, 116 macros, 0 operations, 0 seed files, 0 sources
+2019-09-04 09:33:56,513 (MainThread): 
+2019-09-04 09:33:56,513 (MainThread): Acquiring new snowflake connection "master".
+2019-09-04 09:33:56,513 (MainThread): Re-using an available connection from the pool (formerly test).
+2019-09-04 09:33:56,533 (MainThread): Parsing macros/core.sql
+2019-09-04 09:33:56,541 (MainThread): Parsing macros/materializations/helpers.sql
+2019-09-04 09:33:56,548 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2019-09-04 09:33:56,552 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2019-09-04 09:33:56,563 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2019-09-04 09:33:56,584 (MainThread): Parsing macros/materializations/seed/seed.sql
+2019-09-04 09:33:56,598 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2019-09-04 09:33:56,605 (MainThread): Parsing macros/materializations/common/merge.sql
+2019-09-04 09:33:56,611 (MainThread): Parsing macros/materializations/table/table.sql
+2019-09-04 09:33:56,617 (MainThread): Parsing macros/materializations/view/view.sql
+2019-09-04 09:33:56,622 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2019-09-04 09:33:56,627 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2019-09-04 09:33:56,628 (MainThread): Parsing macros/etc/query.sql
+2019-09-04 09:33:56,629 (MainThread): Parsing macros/etc/is_incremental.sql
+2019-09-04 09:33:56,631 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2019-09-04 09:33:56,634 (MainThread): Parsing macros/etc/datetime.sql
+2019-09-04 09:33:56,641 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2019-09-04 09:33:56,643 (MainThread): Parsing macros/adapters/common.sql
+2019-09-04 09:33:56,673 (MainThread): Parsing macros/schema_tests/relationships.sql
+2019-09-04 09:33:56,674 (MainThread): Parsing macros/schema_tests/not_null.sql
+2019-09-04 09:33:56,675 (MainThread): Parsing macros/schema_tests/unique.sql
+2019-09-04 09:33:56,677 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2019-09-04 09:33:56,679 (MainThread): Parsing macros/catalog.sql
+2019-09-04 09:33:56,681 (MainThread): Parsing macros/adapters.sql
+2019-09-04 09:33:56,688 (MainThread): Parsing macros/materializations/merge.sql
+2019-09-04 09:33:56,690 (MainThread): Parsing macros/materializations/view.sql
+2019-09-04 09:33:56,691 (MainThread): Parsing macros/materializations/table.sql
+2019-09-04 09:33:56,694 (MainThread): Parsing macros/materializations/incremental.sql
+2019-09-04 09:33:56,811 (MainThread): Using snowflake connection "master".
+2019-09-04 09:33:56,811 (MainThread): On master: select distinct schema_name
+    from DW_TEST.information_schema.schemata
+    where catalog_name ilike 'DW_TEST'
+2019-09-04 09:33:57,801 (MainThread): SQL status: SUCCESS 2 in 0.99 seconds
+2019-09-04 09:33:57,830 (MainThread): Using snowflake connection "master".
+2019-09-04 09:33:57,830 (MainThread): On master: BEGIN
+2019-09-04 09:33:58,029 (MainThread): SQL status: SUCCESS 1 in 0.20 seconds
+2019-09-04 09:33:58,030 (MainThread): Using snowflake connection "master".
+2019-09-04 09:33:58,030 (MainThread): On master: select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'externaltable'
+           else table_type
+      end as table_type
+    from DW_TEST.information_schema.tables
+    where table_schema ilike 'public'
+      and table_catalog ilike 'dw_test'
+2019-09-04 09:33:58,902 (MainThread): SQL status: SUCCESS 1 in 0.87 seconds
+2019-09-04 09:33:58,905 (MainThread): On master: ROLLBACK
+2019-09-04 09:33:59,951 (MainThread): Using snowflake connection "master".
+2019-09-04 09:33:59,951 (MainThread): On master: BEGIN
+2019-09-04 09:34:00,150 (MainThread): SQL status: SUCCESS 1 in 0.20 seconds
+2019-09-04 09:34:00,151 (MainThread): On master: COMMIT
+2019-09-04 09:34:00,151 (MainThread): Using snowflake connection "master".
+2019-09-04 09:34:00,152 (MainThread): On master: COMMIT
+2019-09-04 09:34:00,462 (MainThread): SQL status: SUCCESS 1 in 0.31 seconds
+2019-09-04 09:34:00,463 (MainThread): 09:34:00 | Concurrency: 1 threads (target='prod')
+2019-09-04 09:34:00,464 (MainThread): 09:34:00 | 
+2019-09-04 09:34:00,465 (Thread-1): 09:34:00 | 1 of 1 START table model PUBLIC.test................................. [RUN]
+2019-09-04 09:34:00,466 (Thread-1): Acquiring new snowflake connection "test".
+2019-09-04 09:34:00,467 (Thread-1): Opening a new connection, currently in state init
+2019-09-04 09:34:01,385 (Thread-1): Compiling model.datawarehouse.test
+2019-09-04 09:34:01,392 (Thread-1): Writing injected SQL for node "model.datawarehouse.test"
+2019-09-04 09:34:01,418 (Thread-1): Writing runtime SQL for node "model.datawarehouse.test"
+2019-09-04 09:34:01,418 (Thread-1): Using snowflake connection "test".
+2019-09-04 09:34:01,419 (Thread-1): On test: BEGIN
+2019-09-04 09:34:01,588 (Thread-1): SQL status: SUCCESS 1 in 0.17 seconds
+2019-09-04 09:34:01,588 (Thread-1): Using snowflake connection "test".
+2019-09-04 09:34:01,588 (Thread-1): On test: create or replace transient table DW_TEST.PUBLIC.test
+  as (
+    select * from DW_TEST.PUBLIC.LOAD_JSON2
+  );
+2019-09-04 09:34:02,614 (Thread-1): SQL status: SUCCESS 1 in 1.03 seconds
+2019-09-04 09:34:02,616 (Thread-1): On test: COMMIT
+2019-09-04 09:34:02,617 (Thread-1): Using snowflake connection "test".
+2019-09-04 09:34:02,617 (Thread-1): On test: COMMIT
+2019-09-04 09:34:03,035 (Thread-1): SQL status: SUCCESS 1 in 0.42 seconds
+2019-09-04 09:34:03,041 (Thread-1): Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e1b6fb34-e64d-423c-a2d1-335fa2163407', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092e05d0>]}
+2019-09-04 09:34:08,840 (Thread-1): 09:34:08 | 1 of 1 OK created table model PUBLIC.test............................ [SUCCESS 1 in 2.57s]
+2019-09-04 09:34:08,891 (MainThread): Using snowflake connection "master".
+2019-09-04 09:34:08,891 (MainThread): On master: BEGIN
+2019-09-04 09:34:09,148 (MainThread): SQL status: SUCCESS 1 in 0.26 seconds
+2019-09-04 09:34:09,149 (MainThread): On master: COMMIT
+2019-09-04 09:34:09,149 (MainThread): Using snowflake connection "master".
+2019-09-04 09:34:09,149 (MainThread): On master: COMMIT
+2019-09-04 09:34:10,062 (MainThread): SQL status: SUCCESS 1 in 0.91 seconds
+2019-09-04 09:34:10,064 (MainThread): 09:34:10 | 
+2019-09-04 09:34:10,065 (MainThread): 09:34:10 | Finished running 1 table models in 13.55s.
+2019-09-04 09:34:10,065 (MainThread): Connection 'master' was left open.
+2019-09-04 09:34:10,065 (MainThread): On master: Close
+2019-09-04 09:34:10,350 (MainThread): Connection 'test' was left open.
+2019-09-04 09:34:10,351 (MainThread): On test: Close
+2019-09-04 09:34:10,647 (MainThread): 
+2019-09-04 09:34:10,648 (MainThread): Completed successfully
+2019-09-04 09:34:10,648 (MainThread): 
+Done. PASS=1 ERROR=0 SKIP=0 TOTAL=1
+2019-09-04 09:34:10,648 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109145dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109321590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109321e10>]}
+2019-09-04 09:34:16,227 (MainThread): Flushing usage events
